@@ -15,7 +15,7 @@ setup(
     author_email = "jchen896@gatech.edu",
     description = ("Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification"),
     license = "MIT",
-    keywords = "MixText",
+    keywords = "Mixtext",
     url = "https://github.com/shahmak/Mixtext.git",
     packages=['code'],
 #     long_description=read('README.md'),
