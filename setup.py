@@ -9,7 +9,7 @@ with io.open('./README.md', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
-    name = "MixText",
+    name = "Mixext",
     version = "0.0.1",
     author = "Jiaao Chen"
     author_email = "jchen896@gatech.edu",
