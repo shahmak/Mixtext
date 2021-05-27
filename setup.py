@@ -11,8 +11,7 @@ with io.open('./README.md', encoding='utf-8') as f:
 setup(
     name = "Mixext",
     version = "0.0.1",
-    author = "Jiaao Chen"
-    author_email = "jchen896@gatech.edu",
+    author = "Jiaao Chen",
     description = ("Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification"),
     license = "MIT",
     keywords = "Mixtext",
