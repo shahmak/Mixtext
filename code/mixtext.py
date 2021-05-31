@@ -1,7 +1,19 @@
+!pip install pytorch_transformers
+!pip install "transformers==3.5.0"
+!pip install transformers
+!pip install swish-activation
+
+# from importlib.machinery import SourceFileLoader
+# somemodule = SourceFileLoader('mixtext', "/content/MixText/code/mixtext.py").load_module()
+
 import torch
 import torch.nn as nn
 from pytorch_transformers import *
-from transformers.modeling_bert import BertEmbeddings, BertPooler, BertLayer
+import swish_package
+from swish_package import swish
+from transformers.modeling_bert import BertEmbeddings
+from transformers.modeling_bert import BertPooler
+from transformers.modeling_bert import BertLayer,BertSelfAttention,BertSelfOutput,BertIntermediate,BertOutput
 
 
 class BertModel4Mix(BertPreTrainedModel):
